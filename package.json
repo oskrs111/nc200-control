@@ -1,6 +1,6 @@
 {
   "name": "nc200-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript module for tpLink NC200 camera control",
   "main": "index.js",
   "scripts": {
