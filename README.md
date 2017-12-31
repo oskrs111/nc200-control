@@ -39,10 +39,10 @@ Note that some control paths can be fired a part of .fcgi ones:
 
 Some of these .fcgi paths need to send specific data within the request. These specific data must be passed as ``getPathsArgs`` object in order to provide the proper data on the AJAX calls. As an example **getvideoctrls** path needs to add some specific data so;
 
-'''js
+``` js
 const myPaths = ["getvideosetting", "getvideoctrls", "..."];
 const myPathArgs = {getvideoctrls:{all:"any value"}};
-'''
+```
 
 Note that all .fcgi paths are used without **.fcgi** extension. This is appended automatically before make the request.
 
