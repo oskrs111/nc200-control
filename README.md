@@ -19,7 +19,7 @@ This will install all the module with dependencies.
 # Usage
 First get the nc200 control object. 
 
-###API
+### API
 ### .nc200device(config, updateCallback, getPaths = gGetDefaultPaths, getPathsArgs = gGetDefaultPathArgs)
 * {object} ``config`` required    
 * {function} ``updateCallback`` required
@@ -61,7 +61,7 @@ This function will start the initial syncronization according with the construct
 
 On the following example the module is used to enable or disable the email notification, when using the motion control feature on the NC200 Camera. You can get additional references from https://github.com/oskrs111/node-nc200-control that uses the previous version of this module.
 
-'''js
+``` js
 const config = {
 	ip:"192.168.XXX.XXX",
 	user:"admin", 
@@ -114,5 +114,5 @@ function deviceCallback(path, data){
 		
 	}
 }
-'''
+```
 
